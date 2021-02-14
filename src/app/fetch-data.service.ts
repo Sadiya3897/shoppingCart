@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 export class FetchDataService {
   public products = [];
   constructor(public httpClient: HttpClient) { }
-  private productData = 'http://localhost:4200/assets/productData.json';
+  private productData = 'http://localhost:8080/assets/productData.json';
   public fetchData() {
     return this.httpClient
       .get(this.productData)
