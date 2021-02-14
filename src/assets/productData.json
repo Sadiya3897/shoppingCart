@@ -1,0 +1,103 @@
+{ "Products" : [
+    {
+      "id": 1,
+      "BrandName":  "FujiFilms",
+      "ProductName": "Polaroid Camera Mini 9",
+      "Price": 4500,
+      "DealAmount": 3500,
+      "OfferText": "10% off",
+      "Image" : "1.jpg",
+      "count" : 0
+    },
+    {
+      "id": 2,
+      "BrandName" :  "FujiFilms",
+      "ProductName": "Mini Picture Films",
+      "Price": 1299,
+      "DealAmount": 999,
+      "OfferText": "8% off",
+      "Image" : "2.png",
+      "count" : 0
+    },
+    {
+      "id": 3,
+      "BrandName":"FujiFilms",
+      "ProductName": "Mini Picture Albums",
+      "Price": 699,
+      "DealAmount": 499,
+      "OfferText": "6% off",
+      "Image" : "3.jpeg",
+      "count" : 0
+    },
+    {
+      "id": 4,
+      "BrandName":"FujiFilms",
+      "ProductName": "Instax Square S20",
+      "Price": 11000,
+      "DealAmount": 9000,
+      "OfferText": "15% off",
+      "Image" : "4.jpg",
+      "count" : 0
+    },
+    {
+      "id": 5,
+      "BrandName":"FujiFilms",
+      "ProductName": "Instax Mini 90 Neo Classic",
+      "Price": 10966,
+      "DealAmount": 8699,
+      "OfferText": "13% off",
+      "Image" : "5.jpeg",
+      "count" : 0
+    },
+    {
+      "id": 6,
+      "BrandName":"FujiFilms",
+      "ProductName": "Instax Mini 11 Gift Box",
+      "Price": 6999,
+      "DealAmount": 4999,
+      "OfferText": "6% off",
+      "Image" : "6.jpeg",
+      "count" : 0
+    },
+    {
+      "id": 7,
+      "BrandName":"FujiFilms",
+      "ProductName": "Instax Mini LiPlay Hybrid",
+      "Price": 14300,
+      "DealAmount": 12300,
+      "OfferText": "8% off",
+      "Image" : "7.jpeg",
+      "count" : 0
+    },
+    {
+      "id": 8,
+      "BrandName":"FujiFilms",
+      "ProductName": "Instax Mini Printer",
+      "Price": 9699,
+      "DealAmount": 8699,
+      "OfferText": "10% off",
+      "Image" : "8.jpeg",
+      "count" : 0
+    },
+    {
+      "id": 9,
+      "BrandName":"FujiFilms",
+      "ProductName": "Instax Mini Printer Cover",
+      "Price": 500,
+      "DealAmount": 485,
+      "OfferText": "2% off",
+      "Image" : "9.jpeg",
+      "count" : 0
+    },
+    {
+      "id": 10,
+      "BrandName":"FujiFilms",
+      "ProductName": "Instax Mini Combo Pack",
+      "Price": 7599,
+      "DealAmount": 6999,
+      "OfferText": "5% off",
+      "Image" : "10.jpg",
+      "count" : 0
+    }
+  ]
+}

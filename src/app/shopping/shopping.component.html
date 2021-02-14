@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-lg-4 col-md-4">
+        <div class="row">
+            <div *ngFor="let product of products">
+                <a href="#"><img src="../../assets/{{product.Image}}" class="img-responsive" alt="Products" /></a>
+                <ul>
+                    <li>{{product.OfferText}}</li>
+                </ul>
+                <div class="productDetails">
+                    <ul>
+                        <li>{{product.BrandName}}</li>
+                        <li>{{product.ProductName}}</li>
+                        <li>MRP {{product.Price}}</li>
+                        <li>Rs {{product.DealAmount}}</li>
+                        <button (click)="increment(product)">Add to Cart</button>
+                        <div class="Increment">
+                            <button type="button" class="Increment" (click)="increment(product)">+</button>
+                        </div>
+                        <div class="Quantity">
+                            {{product.count}}
+                        </div>
+                        <div class="Decrement">
+                            <button type="button" class="Decrement" (click)="decrement(product)">-</button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="details">
+        <div class="cart-item">
+            <ul>
+                <li>Qty {{ length }}</li>
+                <li>total {{ total }}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="checkout">
+        <button (click)="submit()" type="submit" class="btn">
+            CHECKOUT
+        </button>
+        <div class="redirection-popup" *ngIf="overlayFlag">
+            <div class="container">
+                TRANSACTION SUCCESSFULL
+                <div class="redirection-content">
+                    PRICE {{ total}}
+                    <button (click)="close()" type="submit" class="btn">
+                        CLOSE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
